@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "431881915656",
+    "project_id": "cpa-rewards-app",
+    "storage_bucket": "cpa-rewards-app.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:431881915656:android:932f5c85acbc2d8d8df0bd",
+        "android_client_info": {
+          "package_name": "com.example.cpa_rewards_app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCOejrI5tXjQA36neUWUP-TonsCBnyxBQY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

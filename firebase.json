@@ -1,0 +1,56 @@
+{
+  "flutter": {
+    "platforms": {
+      "android": {
+        "default": {
+          "projectId": "cpa-rewards-app",
+          "appId": "1:431881915656:android:932f5c85acbc2d8d8df0bd",
+          "fileOutput": "android/app/google-services.json"
+        }
+      },
+      "ios": {
+        "default": {
+          "projectId": "cpa-rewards-app",
+          "appId": "1:431881915656:ios:47da582dbb2afcca8df0bd",
+          "uploadDebugSymbols": false,
+          "fileOutput": "ios/Runner/GoogleService-Info.plist"
+        }
+      },
+      "macos": {
+        "default": {
+          "projectId": "cpa-rewards-app",
+          "appId": "1:431881915656:ios:47da582dbb2afcca8df0bd",
+          "uploadDebugSymbols": false,
+          "fileOutput": "macos/Runner/GoogleService-Info.plist"
+        }
+      },
+      "dart": {
+        "lib/firebase_options.dart": {
+          "projectId": "cpa-rewards-app",
+          "configurations": {
+            "android": "1:431881915656:android:932f5c85acbc2d8d8df0bd",
+            "ios": "1:431881915656:ios:47da582dbb2afcca8df0bd",
+            "macos": "1:431881915656:ios:47da582dbb2afcca8df0bd",
+            "web": "1:431881915656:web:529df286ba3560708df0bd",
+            "windows": "1:431881915656:web:5d3810d4467506ea8df0bd"
+          }
+        }
+      }
+    }
+  },
+  "functions": [
+    {
+      "source": "functions",
+      "codebase": "default",
+      "ignore": [
+        "node_modules",
+        ".git",
+        "firebase-debug.log",
+        "firebase-debug.*.log"
+      ],
+      "predeploy": [
+        "npm --prefix \"$RESOURCE_DIR\" run build"
+      ]
+    }
+  ]
+}
